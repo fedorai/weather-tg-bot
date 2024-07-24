@@ -19,4 +19,3 @@ weather_data = getWeatherData(geo_data[0]["lat"], geo_data[0]["lon"], API_KEY).j
 
 print(json.dumps(geo_data, indent=2))
 print(json.dumps(weather_data, indent=2))
-
